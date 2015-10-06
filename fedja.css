@@ -1,16 +1,17 @@
-* body { background-color:  #FF4136}
+body { background-color:  #FF4136; font-family: 'Helvetica Neue'; text-align: center 
+}
 
 h2 {
-	font-family: 'Helvetica Neue';
-    text-align: center;
+	
+    
     font-size: 50px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px; }
 
-	h1 { font-family: 'Helvetica Neue';
-    text-align: center;
+	h1 { 
+  
     font-size: 20px;
 	font-style: normal;
 	font-variant: normal;
@@ -22,9 +23,16 @@ h2 {
     margin: 0;
     padding: 0;
 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
     
-.nav{
-    border:1px solid #ccc;
+.nav {
+    
     border-width:1px 0;
     list-style:none;
     margin:0;
@@ -32,9 +40,27 @@ h2 {
     text-align:center;
 }
 .nav li{
-    display:inline;
+    display:inline; 
 }
 .nav a{
     display:inline-block;
     padding:10px;
+}
+
+
+
+a:link, a:visited {
+    
+   
+    font-weight: bold;
+    color: #000000;
+    background-color: #FF4136;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #FF4136;
 }
