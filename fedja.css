@@ -1,11 +1,12 @@
 * body { background-color:  pink}
 
-h1 {
+h2 {
+	font-family: 'Helvetica Neue'
+    text-align: center; } 
 	font-family: 'Helvetica Neue';
     text-align: center;
-    font-size: 34px;
+    font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-}
