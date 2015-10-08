@@ -101,5 +101,5 @@ a:hover, a:active {
 .ct-series-a .ct-line,
 .ct-series-a .ct-point {
   stroke: black !important;
-  area-color: black !important;
+  color: black !important;
 }
