@@ -64,3 +64,11 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #FF4136;
 }
+
+.ct-chart {
+    padding-top: 100px;
+    padding-bottom: 500px;
+    page-break-after: always;
+
+
+}
