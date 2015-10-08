@@ -71,7 +71,7 @@ a:hover, a:active {
     page-break-after: always;
     width: 600px;
     height: 400px;
-    border: 2px black solid;
+    border: 0px black solid;
     margin: auto;
 
 
