@@ -29,6 +29,11 @@ h2 {
     overflow: hidden;
 }
 
+h1 {
+
+    font-size: 
+}
+
 
     
 .nav {
@@ -66,7 +71,7 @@ a:hover, a:active {
 }
 
 .ct-chart {
-    
+
     padding-top: 100px;
     padding-bottom: 500px;
     page-break-after: always;
@@ -76,4 +81,9 @@ a:hover, a:active {
     margin: auto;
 
 
+}
+
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+  stroke: black !important;
 }
