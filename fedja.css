@@ -31,7 +31,12 @@ h2 {
 
 h1 {
 
-    font-size: 
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26,4px;
+
 }
 
 
@@ -86,4 +91,5 @@ a:hover, a:active {
 .ct-series-a .ct-line,
 .ct-series-a .ct-point {
   stroke: black !important;
+  area-color: black !important;
 }
