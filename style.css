@@ -1,0 +1,158 @@
+body {
+
+	margin: 30px;
+	background-color: #000000;
+}
+p {
+
+
+}
+
+
+
+.intro {
+
+	height: 100%;
+	width: 100%;
+}
+
+.intro #nav p {
+
+font-family: "ahamono"; 
+color: #ffffff;
+
+}
+
+
+.align-left {
+
+	
+	float: left;
+	position: relative;
+	margin-top: 4px;
+}
+
+
+.align-right {
+
+	float: right;
+	position: relative;
+	margin-top: 4px;
+}
+
+.align-left1 {
+
+	position: absolute; 
+ 	top: 100%; 
+  	margin-top:-50px; 
+}
+
+.align-right1 {
+
+ 	float: right;
+ 	position: relative;
+ 	margin-top: 558px;
+ 	margin-right: -70px;
+}
+
+
+
+.align-right:hover {
+
+	text-decoration: none;
+border-bottom: 2px solid;
+
+}
+
+.align-left:hover {
+
+	text-decoration: none;
+border-bottom: 2px solid;
+
+}
+
+.align-left1:hover {
+
+	text-decoration: none;
+border-bottom: 2px solid;
+}
+
+
+.align-right1:hover {
+
+	text-decoration: none;
+border-bottom: 2px solid;
+}
+/*
+
+/*
+.arrow {
+
+	position: absolute;
+	margin-left: 550px;
+	margin-top: -80px;
+	position: fixed;
+	display: none;
+
+}
+
+*/
+
+.hej {
+
+	  position: absolute;
+  top: 45%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  display: none;
+  font-family: ;
+}
+
+
+
+#top, #bottom, #left, #right {
+	background: #ffffff;
+	position: fixed;
+	z-index: 100;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+		@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+	#top, #bottom, #left, #right { display: none; }
+}
+
+/*
+.work {
+	height: 100%;
+	width: 100%;
+}
+
+.about {
+
+	height: 100%;
+	width: 100%;
+}
+
+*/

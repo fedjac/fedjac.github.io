@@ -1,9 +1,40 @@
-new Chartist.Line('.ct-chart', {
-  labels: ['Australia', 'USA', 'Sweden', 'New York', 'London', 'Canada', 'UK'],
-  series: [
-    [40000, 45000, 42000, 57000, 34000, 32000, 31000],
-  ]
-}, {
-  low: 0,
-  showArea: true
+$(document).ready(function () {
+    $('.hej').fadeIn(2000)
+
+
+/*   $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 3) {
+    $('.arrow').fadeIn();
+  } else {
+    $('.arrow').fadeOut();
+  }
+
+var y = $(this).scrollTop();
+  if (y > 10) {
+    $('.align-right1').fadeOut();
+  } else {
+    $('.align-right1').fadeIn();
+  }
+
+var y = $(this).scrollTop();
+  if (y > 10) {
+    $('.align-left1').fadeOut();
+  } else {
+    $('.align-left1').fadeIn();
+  }
+
+
 });
+
+*/
+
+
+
+
+
+  
+
+
+});
+
