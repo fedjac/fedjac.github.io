@@ -8,6 +8,11 @@ p {
 
 }
 
+@font-face {
+    font-family: 'ahamono';
+    src: url(fonts/ahamono-monopaced.otf);
+}
+
 
 
 .intro {
