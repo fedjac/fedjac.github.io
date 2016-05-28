@@ -10,7 +10,7 @@ p {
 
 @font-face {
     font-family: 'ahamono';
-    src: local("AHAMONO-Monospaced.otf");
+    src: url("AHAMONO-Monospaced.otf");
 }
 
 
@@ -23,7 +23,7 @@ p {
 
 .intro #nav p {
 
-font-family: "ahamono"; 
+font-family: "ahamono", helvetica-neue; 
 color: #ffffff;
 
 }
