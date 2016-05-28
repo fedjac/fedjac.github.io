@@ -5,6 +5,11 @@ body {
 	
 }
 
+@font-face {
+    font-family: 'ahamono';
+    src: url("AHAMONO-Monospaced.otf");
+}
+
 .pres {
 
 	height: 100%;
@@ -13,7 +18,7 @@ body {
 
 .intro4 #nav4 p {
 
-	font-family: "ahamono";
+	font-family: "ahamono", helvetica neue;
 	color: #000;
 
 }
