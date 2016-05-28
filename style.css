@@ -47,17 +47,18 @@ color: #ffffff;
 
 .align-left1 {
 
-	position: absolute; 
- 	top: 100%; 
-  	margin-top:-50px; 
+position: fixed; 
+ 	left: 0;
+ 	bottom: 0;
+ 	margin-left: 30px;
+ 	margin-bottom: 30px;
 }
 
 .align-right1 {
 
- 	float: right;
- 	position: relative;
- 	margin-top: 558px;
- 	margin-right: -70px;
+ 	position: absolute;
+	top: 90%;
+	right: 2.5%;
 }
 
 
