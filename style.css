@@ -10,6 +10,11 @@ body {
 	min-height: 100%;
 }
 
+@font-face {
+    font-family: 'ahamono';
+    src: url("AHAMONO-Monospaced.otf");
+}
+
 p {
 
 
