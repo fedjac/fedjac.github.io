@@ -120,6 +120,7 @@ color: #000000;
 .align-right2 {
 
  	float: left;
+ 	position: relative;
 	border-bottom: 2px solid;
 	margin-left: 51.5%;
 	
