@@ -22,6 +22,9 @@ body {
     src: url("AkzidenzGrotesk-Bold.otf");
 }
 
+
+
+
 /*
 .pres {
 
@@ -163,15 +166,15 @@ border-bottom: 2px solid;
 
 .container{
 
-padding-top: 180px;
-padding-left: 360px;
+	padding-top: 190;
+	padding-left:350;
 
 }
 
 .container11{
 
-padding-top: 40px;
-padding-left: 360px;
+padding-top: 90;
+padding-left: 350;
 
 }
 
@@ -286,5 +289,4 @@ text-decoration: line-through;
 text-decoration: line-through;
 
 }
-
 
