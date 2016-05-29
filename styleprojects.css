@@ -17,6 +17,11 @@ body {
     src: url("AHAMONO-Monospaced.otf");
 }
 
+@font-face {
+    font-family: 'Akzidenz-Grotesk BQ';
+    src: url("AkzidenzGrotesk-Bold.otf");
+}
+
 /*
 .pres {
 
