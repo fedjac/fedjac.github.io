@@ -1,29 +1,25 @@
+html {
+
+	height: 100%;
+}
+
 body {
 
 	margin: 30px;
 	background-color: #000000;
+	min-height: 100%;
 }
+
 p {
 
 
 }
 
-@font-face {
-    font-family: 'ahamono';
-    src: url("AHAMONO-Monospaced.otf");
-}
 
-
-
-.intro {
-
-	height: 100%;
-	width: 100%;
-}
 
 .intro #nav p {
 
-font-family: "ahamono", helvetica-neue; 
+font-family: "ahamono"; 
 color: #ffffff;
 
 }
@@ -47,18 +43,16 @@ color: #ffffff;
 
 .align-left1 {
 
-position: fixed; 
- 	left: 0;
- 	bottom: 0;
- 	margin-left: 30px;
- 	margin-bottom: 30px;
+	position: fixed;
+	left: 30;
+	bottom: 10;
 }
 
 .align-right1 {
 
- 	position: absolute;
-	top: 88.2%;
-	right: 2.5%;
+	position: absolute;
+	top: 90%;
+	right: 30px;
 }
 
 
