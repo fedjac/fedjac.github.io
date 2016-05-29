@@ -5,7 +5,8 @@ html {
 
 body {
 
-	margin: 30px;
+	margin: 2%;
+	margin-top: 1.5%;
 	background-color: #000000;
 	min-height: 90vh;
 }
@@ -35,7 +36,7 @@ color: #ffffff;
 	
 	float: left;
 	position: relative;
-	margin-top: 4px;
+	margin-top: 
 }
 
 
@@ -43,21 +44,22 @@ color: #ffffff;
 
 	float: right;
 	position: relative;
-	margin-top: 4px;
+	margin-top: 
 }
 
 .align-left1 {
 
-	position: fixed;
+position: fixed;
 	left: 30;
 	bottom: 10;
 }
 
 .align-right1 {
 
-	position: absolute;
-	top: 575px;
-	right: 30px;
+position: fixed;
+	right: 30;
+	bottom: 10;
+	
 }
 
 
