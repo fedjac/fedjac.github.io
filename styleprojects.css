@@ -99,11 +99,13 @@ color: #000000;
 
 }
 
+
+
 .align-right1 {
 
 	float: right;
 	position: relative;
-	margin-right: 4.3%;
+	margin-right: 2%;
 	
 
 }
@@ -119,10 +121,10 @@ color: #000000;
 
 .align-right2 {
 
- 	float: left;
+ 	float: right;
  	position: relative;
 	border-bottom: 2px solid;
-	margin-left: 51.5%;
+	margin-left: 2%;
 	
 	
 }
