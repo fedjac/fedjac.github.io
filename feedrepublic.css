@@ -1,8 +1,14 @@
+html {
+
+	height: 90vh;
+}
+
 body {
 
-	margin: 30px;
+	margin: 2%;
+	margin-top: 1.5%;
 	background-color: #ffffff;
-	
+	min-height: 90vh;	
 }
 
 @font-face {
@@ -80,36 +86,39 @@ color: #000000;
 .align-left1 {
 
 	
+	
 	float: left;
 	position: relative;
-	margin-top: 4px;
+	margin-top: 
 
 }
 
 .align-right1 {
 
-	float: right;
+float: right;
 	position: relative;
-	margin-top: 4px;
+	margin-right: 2%;
+	border-bottom: 2px solid;
 
 
 }
 
 .align-left2 {
 
-	float: right;
+float: right;
 	position: relative; 
- 	margin-top: 4px;
- 	margin-left: 55px; 
+ 	margin-top: 
+ 	margin-left: 2%; 
+
 }
 
 
 .align-right2 {
 
- 	position: absolute;
-	border-bottom: 2px solid;
-	top:17.5px;
-	right: 240px;
+ 	float: right;
+ 	position: relative;
+	
+	margin-left: 2%;
 	
 	
 }
