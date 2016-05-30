@@ -8,7 +8,9 @@ body {
 	margin: 2%;
 	margin-top: 1.5%;
 	background-color: #ffffff;
-	min-height: 90vh;	
+	min-height: 90vh;
+
+	
 }
 
 @font-face {
@@ -16,11 +18,12 @@ body {
     src: url("AHAMONO-Monospaced.otf");
 }
 
-
 @font-face {
     font-family: 'Akzidenz-Grotesk BQ';
     src: url("AkzidenzGrotesk-Bold.otf");
 }
+
+
 .pres {
 
 	height: 100%;
@@ -29,7 +32,7 @@ body {
 
 .intro4 #nav4 p {
 
-	font-family: "ahamono", helvetica neue;
+	font-family: "ahamono";
 	color: #000;
 
 }
@@ -91,15 +94,13 @@ color: #000000;
 .align-left1 {
 
 	
-	
-	float: left;
+		float: left;
 	position: relative;
 	margin-top: 
 
 }
 
 .align-right1 {
-
 float: right;
 	position: relative;
 	margin-right: 2%;
@@ -110,11 +111,10 @@ float: right;
 
 .align-left2 {
 
-float: right;
+	float: right;
 	position: relative; 
  	margin-top: 
  	margin-left: 2%; 
-
 }
 
 
@@ -130,9 +130,11 @@ float: right;
 
 .align-left3 {
 
-position: fixed;
-	left: 30;
-	bottom: 17;
+	
+	position: fixed; 
+ 
+  top: 100%; 
+  margin-top:-50px;
 }
 
 .align-left2:hover {

@@ -1,13 +1,25 @@
+html {
+
+	height: 90vh;
+}
+
 body {
 
-	margin: 30px;
+	margin: 2%;
+	margin-top: 1.5%;
 	background-color: #ffffff;
+	min-height: 90vh;
 	
 }
 
 @font-face {
     font-family: 'ahamono';
     src: url("AHAMONO-Monospaced.otf");
+}
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk BQ';
+    src: url("AkzidenzGrotesk-Bold.otf");
 }
 
 .pres {
@@ -18,7 +30,7 @@ body {
 
 .intro3 #nav3 p {
 
-	font-family: "ahamono", helvetica-neue;
+	font-family: "ahamono";
 	color: #000;
 
 }
@@ -91,10 +103,9 @@ color: #000000;
 }
 .align-left1 {
 
-	
-	float: left;
+		float: left;
 	position: relative;
-	margin-top: 4px;
+	margin-top: 
 
 }
 
@@ -102,27 +113,27 @@ color: #000000;
 
 	float: right;
 	position: relative;
-	margin-top: 4px;
-	
-
+	margin-right: 2%;
+	border-bottom: 2px solid;
 }
 
 .align-left2 {
 
 	float: right;
 	position: relative; 
- 	margin-top: 4px;
- 	margin-left: 55px;
- 	border-bottom: 2px solid; 
+ 	margin-top: 
+ 	margin-left: 2%; 
 }
 
 
 .align-right2 {
 
- 	position: absolute;
+ 		float: right;
+ 	position: relative;
 	
-	top:17.5px;
-	right: 240px;
+	margin-left: 2%;
+	
+	
 	
 	
 }
@@ -180,7 +191,7 @@ text-decoration: line-through;
 
 	
   	float: left;
-  	width: 20%;
+  	width: 40%;
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 60px;
 	color: black;
@@ -196,7 +207,7 @@ text-decoration: line-through;
 #email .words {
 
 	float: left;
-	width: 20%;
+	width: 15%;
 	
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 60px;
