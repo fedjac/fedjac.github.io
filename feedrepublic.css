@@ -130,10 +130,9 @@ float: right;
 
 .align-left3 {
 
-	position: fixed; 
- 
-  top: 100%; 
-  margin-top:-50px; 
+position: fixed;
+	left: 30;
+	bottom: 17;
 }
 
 .align-left2:hover {
