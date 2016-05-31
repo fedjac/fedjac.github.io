@@ -182,6 +182,7 @@ position: absolute;
     top: 25%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    margin-bottom: 9%;
 
 }
 
@@ -193,6 +194,7 @@ position: absolute;
     top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+   
 }
 
 #introduction1 .spec1 {
@@ -203,7 +205,8 @@ position: absolute;
     top: 90%;
     left: 34.5%;
     transform: translateX(-50%) translateY(-50%);
-    padding-bottom: 2%;
+    margin-bottom: 9%;
+
 
 }
 
