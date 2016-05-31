@@ -228,9 +228,9 @@ font-family: helvetica neue;
 .name {
 
 	position: absolute;
-	max-width: 80%;
-	top: 30%;
-	left: 37%;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 40px;
 	
@@ -243,10 +243,9 @@ font-family: helvetica neue;
 .bread {
 
 	position: absolute;
-	max-width: 80%;
-	top: 50%;
-	left: 14%;
-	right: 14%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 20px;
 }
@@ -257,9 +256,9 @@ font-family: helvetica neue;
 
 
 	position: absolute;
-	max-width: 80%;
-	top: 75%;
-	left: 14%;
+    top: 70%;
+    left: 35.5%;
+    transform: translateX(-50%) translateY(-50%);
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 20px;
 
