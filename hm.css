@@ -177,10 +177,11 @@ border-bottom: 2px solid;
 
 
 font-family: "Akzidenz-Grotesk BQ";
-padding-top: 200px;
 font-size: 40px;
-padding-left: 355px;
-padding-right: 170px;
+position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 
 }
 
@@ -188,19 +189,20 @@ padding-right: 170px;
 
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 20px;
-	padding-top: 0px;
-	padding-right: 160px;
-	padding-left: 170px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 #introduction1 .spec1 {
 
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 18px;
-	padding-top: 20px;
-	padding-right: 170px;
-	padding-left: 170px;
-	margin-bottom: 90px;
+	position: absolute;
+    top: 70%;
+    left: 35.5%;
+    transform: translateX(-50%) translateY(-50%);
 
 }
 

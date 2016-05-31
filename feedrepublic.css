@@ -228,7 +228,7 @@ font-family: helvetica neue;
 .name {
 
 	position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 	font-family: "Akzidenz-Grotesk BQ";
