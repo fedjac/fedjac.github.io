@@ -190,7 +190,7 @@ position: absolute;
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 20px;
 	position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
@@ -200,9 +200,10 @@ position: absolute;
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 18px;
 	position: absolute;
-    top: 70%;
-    left: 35.5%;
+    top: 90%;
+    left: 34.5%;
     transform: translateX(-50%) translateY(-50%);
+    padding-bottom: 2%;
 
 }
 
