@@ -217,7 +217,7 @@ font-family: helvetica neue;
 
 */
 
-
+/*
 #introduction2 .spec30 {
 
 font-family: helvetica neue;
@@ -228,7 +228,7 @@ font-family: helvetica neue;
 	z-index: 100;
 
 }
-
+*/
 
 #introduction {
 
@@ -236,12 +236,13 @@ font-family: helvetica neue;
 
 }
 
+
 .name2 {
 
-	position: absolute;
-	max-width: 100%;
-	top: 30%;
-	left: 25%;
+		position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 40px;
 	
@@ -253,14 +254,14 @@ font-family: helvetica neue;
 
 .bread2 {
 
-	position: absolute;
-	max-width: 100%;
-	top: 50%;
-	left: 16%;
-	right: 16%;
+		position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 20px;
 }
+
 
 
 /*
@@ -294,6 +295,7 @@ font-family: helvetica neue;
 
 */
 
+
 .spec30 {
 
 position: absolute;
@@ -325,8 +327,8 @@ position: absolute;
 iframe.ri:empty
 {
 	top: 110%;
-	left: 20%;
+	left: 21%;
 	
 }
 
-}
+
