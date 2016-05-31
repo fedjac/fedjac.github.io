@@ -198,14 +198,14 @@ position: absolute;
 }
 
 
-/*
+
 #introduction1 .spec1 {
 
 	font-family: "Akzidenz-Grotesk BQ";
 	font-size: 20px;
 	position: absolute;
     top: 90%;
-    left: 35.5%;
+    left: 50%;
     transform: translateX(-50%) translateY(-50%);
     margin-bottom: 9%;
 
