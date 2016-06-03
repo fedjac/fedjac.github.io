@@ -107,7 +107,7 @@ color: #000000;
 	float: right;
 	position: relative;
 	margin-right: 2%;
-	border-bottom: 2px solid;
+	
 }
 
 .align-left2 {
@@ -116,6 +116,7 @@ color: #000000;
 	position: relative; 
  	margin-top: 
  	margin-left: 2%; 
+ 	border-bottom: 2px solid;
 }
 
 
