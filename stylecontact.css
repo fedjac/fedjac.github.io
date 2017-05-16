@@ -82,7 +82,20 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 {
 	#top, #bottom, #left, #right { display: none; }
+	#email .phone { font-size: 37px !important;	}
 }
+
+@media (max-width:1200px){
+	#email .mail {
+		margin-left:0 !important;
+	}
+}
+@media (max-width:900px){
+	#email .words {
+		float:none !important;
+	}
+}
+
 
 /*
 .intro1 #nav1 p {
@@ -114,7 +127,6 @@ color: #000000;
 	float: right;
 	position: relative;
 	margin-right: 2%;
-	border-bottom: 2px solid;
 }
 
 .align-left2 {
@@ -133,6 +145,7 @@ color: #000000;
 	
 	margin-left: 2%;
 	
+	border-bottom: 2px solid;
 	
 	
 	

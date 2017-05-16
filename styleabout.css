@@ -84,6 +84,13 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 	#top, #bottom, #left, #right { display: none; }
 }
 
+@media (max-width:768px){
+	#presentation h3 {
+		padding-left:20px;
+		padding-right:20px;
+	}
+}
+
 
 .intro1 #nav1 p {
 

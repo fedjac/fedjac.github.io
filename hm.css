@@ -90,6 +90,23 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 	#top, #bottom, #left, #right { display: none; }
 }
 
+@media (max-width:900px){
+  .bread1 { transform:none !important; top:35% !important; left:5% !important; width:90% !important; }
+  .spec1 { top:80% !important; }
+}
+@media (max-width:600px){
+  .bread1 { transform:none !important; top:40% !important; left:5% !important; width:90% !important; }
+  .spec1 { top:95% !important; }
+}
+@media (max-width:500px){
+  .spec1 { top:100% !important; }
+  }
+@media (max-width:400px){
+  .name1 { transform:none !important; top:20% !important; left:5% !important; width:90% !important; }
+  .bread1 { transform:none !important; top:55% !important; left:5% !important; width:90% !important; }
+  .spec1 { top:180% !important; }
+}
+
 /*
 .intro1 #nav1 p {
 

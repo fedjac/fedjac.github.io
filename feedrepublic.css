@@ -78,6 +78,13 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 	#top, #bottom, #left, #right { display: none; }
 }
 
+@media (max-width:700px){
+	.bread { transform:none !important; top:35% !important; left:5% !important; }
+	.spec { top:80% !important; }
+	#pics img.ri { top:120% !important; }
+	#pics img.ri1 { top:170% !important; }
+}
+
 
 
 

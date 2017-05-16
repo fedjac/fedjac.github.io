@@ -88,6 +88,11 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 	#top, #bottom, #left, #right { display: none; }
 }
 
+@media (max-width:1024px){
+	body div.container { padding-left:0 !important; }
+	body div.container11 { padding-left:0 !important; }
+}
+
 /*
 .intro1 #nav1 p {
 

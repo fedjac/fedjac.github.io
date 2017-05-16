@@ -89,6 +89,26 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 {
 	#top, #bottom, #left, #right { display: none; }
 }
+@media (max-width:980px){
+	#vimeo iframe {
+		max-width:50% !important;
+		height:200px;
+	}
+}
+@media (max-width:700px){
+	.bread2 { transform:none !important; top:40% !important; left:5% !important; width:90% !important; }
+	.spec30 { top:80% !important; }
+}
+@media (max-width:440px){
+	#vimeo iframe {
+		height:100px;
+		top: 140% !important;
+	}
+	.name2 { top:35% !important; }
+	.bread2 { top:70% !important; }
+	.spec30 { top:120% !important; }
+	}
+
 
 /*
 .intro1 #nav1 p {
