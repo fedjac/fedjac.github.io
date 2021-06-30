@@ -30,7 +30,7 @@ p {
 
 .intro #nav p {
 
-font-family: "ahamono"; 
+font-family: "ahamono";
 color: #ffffff;
 
 }
@@ -38,10 +38,10 @@ color: #ffffff;
 
 .align-left {
 
-	
+
 	float: left;
 	position: relative;
-	margin-top: 
+	margin-top:
 }
 
 
@@ -49,7 +49,7 @@ color: #ffffff;
 
 	float: right;
 	position: relative;
-	margin-top: 
+	margin-top:
 }
 
 .align-left1 {
@@ -64,7 +64,7 @@ position: fixed;
 position: fixed;
 	right: 30;
 	bottom: 17;
-	
+
 }
 
 
@@ -131,25 +131,25 @@ border-bottom: 2px solid;
 	}
 	#left, #right {
 		top: 0; bottom: 0;
-		width: 15px;
+		width: 10px;
 		}
 		#left { left: 0; }
 		#right { right: 0; }
-		
+
 	#top, #bottom {
 		left: 0; right: 0;
-		height: 15px;
+		height: 10px;
 		}
 		#top { top: 0; }
 		#bottom { bottom: 0; }
 
-		@media 
+		@media
 
 /* Fairly small screens including iphones */
 only screen and (max-width: 500px),
 
 /* iPads */
-only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 {
 	#top, #bottom, #left, #right { display: none; }
